@@ -28,29 +28,6 @@ A total of eleven sex-proportion configurations were evaluated, ranging from 100
 - A persistent sex-related performance gap exists, but its direction depends on the dataset.
 - The same gap is present in a sex-agnostic persistence baseline, suggesting that it originates from intrinsic differences in glycaemic dynamics rather than demographic imbalance in the training data.
 
-## Repository Structure
-
-```text
-.
-├── src/
-│   ├── 1_generate_windows.py
-│   ├── 2_folds_creation.py
-│   ├── 3_experiment.py
-│   ├── generate_clarke_zones_figures.py
-│   ├── generate_figures.py
-│   ├── generate_figures_all.py
-│   ├── generate_figures_final.py
-│   ├── generate_rmse_by_range_per_config.py
-│   └── tables_by_range.py
-│
-├── figures/
-│
-├── environment.yml
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
 ## Installation
 
 ### Using Conda (recommended)
